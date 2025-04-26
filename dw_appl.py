@@ -98,7 +98,7 @@ st.markdown(f"""
 # === Load NLP and Spellchecker ===
 @st.cache_resource
 def load_nlp():
-    return spacy.load("ru_core_news_lg")
+    return spacy.load("ru_core_news_sm")
 
 @st.cache_resource
 def load_spell():
